@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:   #F8D8C6;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 35vw;
+    margin: 0 2%;
+}
+
+.nav-list {
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0 2vw;
+    justify-content: end;
+    width: 100%;
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.footer-copy {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.box-icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.box-icon img {
+    width: 1em;
+}
+
+.box-icon span {
+    font-size: 1em;
+}
+
+.box-copy {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}   
+
+
+.text-copy span {
+    margin: 16px;
+}
+
+
+/* Index.html */
+
+.hero-page {
+    height: 40vw;
+}
+.box-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: red 1px solid;
+}
+
+.profile {
+    width: 5em;
+    background-color: #B2382C;
+    border-radius: 60%;
+}
+
+.desc-hero {
+    text-align: center;
+    width: 50%;
+}
+
+.desc-intro {
+    text-align: center;
+    width: 50%;
+}
+
+/* about.html */
+
+
+/* experience.html */
