@@ -99,6 +99,24 @@ a {
     width: 50%;
 }
 
+.button-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    width: 60%;
+    justify-content: center;
+}
+
+.button-box button {
+    margin: 2px 4px;
+    padding: 16px 8px;
+    color: white;
+    width: 10vw;
+    border-radius: 10px;
+    background-color: maroon;
+    cursor: pointer;
+}
+
 /* about.html */
 
 .about-page {
@@ -229,9 +247,9 @@ a {
 
 .blog1 {
     display: flex;
-    justify-content: center;
     width: 60%;
     cursor: pointer;
+    margin: 2% 0;
 }
 
 
